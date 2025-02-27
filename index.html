@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style-7.css">
+    <script src="https://kit.fontawesome.com/bdee4b5131.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imeges/logo.png" alt="logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Servicing</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Dinesh</span><br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section  -->
+    <div id="about">
+        <div class="conatiner">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imeges/user.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="about-me">Hi, I'm <span>Dinesh Kalera</span> a passionate web developer and software developer with 1 year of experience in building efficient and high-performance website.Currently I'm pursuing my Btech degree in <span>Electrical Engineering</span> from Madan <span>Mohan Malaviya University Of Technology</span>.Let's connect and building something amazing together.</p>
+                    <br>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Website</li>
+                            <li><span>Software Development</span><br>Data Structure and Algorithum</li>
+                            <li><span>Data Science/Analytic</span><br>How to manage data</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>March 2021 - current</span><br>Online Teaching on Chegg</li>
+                            <li><span>Sep 2024 - Nov 2024</span><br>Make project on code soft and code alpha</li>
+                            <li><span>Dec 2024 - Jan 2024</span><br>Building project for code alpha on web development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019</span><br>Completed Secondary Education from KMD school</li>
+                            <li><span>2021</span><br>Completed Senior Secondary Education from Abhinav Bal Bharati school</li>
+                            <li><span>2023 - 2027</span><br>Btech in Electrical from MMMUT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services section -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Designing</h2>
+                    <p>Web designing is the process of creating visually appealing and functional websites that provide a seamless user experience. It involves a combination of aesthetics, layout structuring, and technical aspects.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Software Development</h2>
+                    <p>Software development is the process of designing, coding, testing, and maintaining applications, frameworks, or other software components.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Science/Analytic</h2>
+                    <p>Data Science is an interdisciplinary field that uses scientific methods, algorithms, and systems to extract insights from structured and unstructured data.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="imeges/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Tic Tac Toe</h3>
+                        <p>I recently built a Tic-Tac-Toe game using HTML, CSS, and JavaScript, and I'm excited to share it with you all! </p>
+                        <a href="https://dineshjat1106.github.io/Tic-Tac-Toe-Game-Project/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imeges/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Flappy Bird</h3>
+                        <p>I'm building my own version of Flappy Bird using HTML, CSS, and JavaScript! This project is helping me sharpen my front-end development skills</p>
+                        <a href="https://dineshjat1106.github.io/Flappy-Bird-Project/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="imeges/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Spotify Clone</h3>
+                        <p>This Spotify Clone is a web-based music streaming application designed using HTML, CSS, and JavaScript.</p>
+                        <a href="https://dineshjat1106.github.io/Spotify-Clone-Project/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- contact section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> dkaler386@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> 6377419821</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/share/1DLXyRhHno/?mibextid=qi2Omg"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/dineshjat0606?igsh=MTEwc3Q0ZTZ4NnI0Ng=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dinesh-kalera-a70951307/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Dineshjat1106"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://leetcode.com/u/Dineshjat1106/"><i class="fa-solid fa-code"></i></a>
+                    </div>
+                    <a href="imeges/My resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Dinesh. Instructed <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+    <!-- script file -->
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+
+    <!-- contact form -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwZXVIaWawTEWUqwD6B2xZHDHhNHSR3jKEkZbSselRwsBeTv1t3HpO3Gur6tQ5XnoZu/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },2000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
